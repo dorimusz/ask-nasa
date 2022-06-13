@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ask NASA</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="box">
+        <div id="container">
+            <h1 id="title"></h1>
+        
+            <div id="date"> </div>
+            <div id="image">
+                <img id="img" src="" alt="" width="900px">
+            </div>
+            <p id="explanation"></p>
+
+            <div id="date">
+                <div id="selectDate">
+                    <label for="dateSelector">Choose another day:</label>
+                    <select class="customSelect" id="dateSelector">
+                        <option value=""></option>
+                        <option value="2020-09-02">2020 September 2</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+    <div id="everydayImages">
+        <div id="imageHolder">
+
+        </div>
+    </div>
+
+    <script src="today.js"></script>
+</body>
+</html>
